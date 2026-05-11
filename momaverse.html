@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Mom's Internet</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: "SF Pro Rounded", "Avenir Next", "Nunito", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    background: #0a0a0a;
+    color: #ffffff;
+    margin: 0;
+    padding: 28px 20px 60px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #d4c89a;
+  }
+  .crest {
+    font-size: 36px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #d4c89a;
+  }
+  .tagline {
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-weight: 500;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d4c89a;
+    margin: 40px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3a3a3a;
+    text-align: center;
+  }
+  a.link {
+    display: block;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  a.link:active {
+    background: #d4c89a;
+    border-color: #d4c89a;
+    color: #0a0a0a;
+  }
+  a.link:active .desc { color: #0a0a0a; }
+  a.link:active .arrow { color: #0a0a0a; }
+  .name {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .name .arrow {
+    color: #d4c89a;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .desc {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  .starter {
+    background: #1a1a1a;
+    border: 2px solid #d4c89a;
+    color: #ffffff;
+  }
+  .starter .desc { color: #ffffff; }
+  .starter .name { color: #d4c89a; }
+  .starter .name .arrow { color: #d4c89a; }
+  .starter:active {
+    background: #d4c89a;
+    border-color: #d4c89a;
+    color: #0a0a0a;
+  }
+  .starter:active .desc { color: #0a0a0a; }
+  .starter:active .name { color: #0a0a0a; }
+  .starter:active .arrow { color: #0a0a0a; }
+  .badge {
+    display: inline-block;
+    background: transparent;
+    color: #d4c89a;
+    border: 1px solid #d4c89a;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+  .starter:active .badge {
+    color: #0a0a0a;
+    border-color: #0a0a0a;
+  }
+  .divider {
+    text-align: center;
+    margin: 16px 0 6px;
+    color: #3a3a3a;
+    font-size: 10px;
+    letter-spacing: 4px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 44px;
+    padding-top: 24px;
+    border-top: 1px solid #3a3a3a;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+ 
+<header>
+  <div class="crest">M&middot;I</div>
+  <div class="tagline">Mom's Internet</div>
+</header>
+ 
+<h2>Start Here</h2>
+ 
+<a class="link starter" href="https://airmail.news" target="_blank" rel="noopener">
+  <div class="name">Air Mail <span><span class="badge">Daily</span><span class="arrow">→</span></span></div>
+  <div class="desc">Graydon Carter's weekend reading. Profiles, dispatches, the kind of writing magazines used to do.</div>
+</a>
+ 
+<a class="link starter" href="https://www.thecut.com" target="_blank" rel="noopener">
+  <div class="name">The Cut <span><span class="badge">Daily</span><span class="arrow">→</span></span></div>
+  <div class="desc">New York Magazine's smartest vertical. Don't miss "How I Get It Done."</div>
+</a>
+ 
+<a class="link starter" href="https://magasin.beehiiv.com" target="_blank" rel="noopener">
+  <div class="name">Magasin <span><span class="badge">Weekly</span><span class="arrow">→</span></span></div>
+  <div class="desc">Laura Reilly's shopping newsletter. What the young It-girls are buying.</div>
+</a>
+ 
+<h2>Short Reads with Taste</h2>
+ 
+<a class="link" href="https://system-magazine.com" target="_blank" rel="noopener">
+  <div class="name">System <span class="arrow">→</span></div>
+  <div class="desc">The real industry interviews. Long, considered, no fluff.</div>
+</a>
+ 
+<a class="link" href="https://1granary.com" target="_blank" rel="noopener">
+  <div class="name">1 Granary <span class="arrow">→</span></div>
+  <div class="desc">What the students at Saint Martins, Antwerp, and the rest are making.</div>
+</a>
+ 
+<a class="link" href="https://www.ssense.com/en-us/editorial" target="_blank" rel="noopener">
+  <div class="name">SSENSE Editorial <span class="arrow">→</span></div>
+  <div class="desc">Surprisingly sharp cultural writing tucked inside a shopping site.</div>
+</a>
+ 
+<a class="link" href="https://showstudio.com" target="_blank" rel="noopener">
+  <div class="name">SHOWstudio <span class="arrow">→</span></div>
+  <div class="desc">Nick Knight's fashion film archive. A beautiful place to fall into.</div>
+</a>
+ 
+<h2>The Young Crowd</h2>
+ 
+<a class="link" href="https://www.blackbirdspyplane.com" target="_blank" rel="noopener">
+  <div class="name">Blackbird Spyplane <span class="arrow">→</span></div>
+  <div class="desc">Menswear and cultural commentary. Very funny, often weird, occasionally brilliant.</div>
+</a>
+ 
+<a class="link" href="https://www.feedme.beehiiv.com" target="_blank" rel="noopener">
+  <div class="name">Feed Me <span class="arrow">→</span></div>
+  <div class="desc">Emily Sundberg's daily download on what young New York is talking about.</div>
+</a>
+ 
+<a class="link" href="https://dirt.fyi" target="_blank" rel="noopener">
+  <div class="name">Dirt <span class="arrow">→</span></div>
+  <div class="desc">A short newsletter on digital culture. What the kids are into, decoded.</div>
+</a>
+ 
+<a class="link" href="https://throwingfits.com" target="_blank" rel="noopener">
+  <div class="name">Throwing Fits <span class="arrow">→</span></div>
+  <div class="desc">Fashion industry podcast. Charmingly insufferable, zero reverence.</div>
+</a>
+ 
+<h2>Gadgets &amp; Gizmos</h2>
+ 
+<a class="link" href="https://www.theverge.com" target="_blank" rel="noopener">
+  <div class="name">The Verge <span class="arrow">→</span></div>
+  <div class="desc">Tech news with a point of view. The reviews are the best part.</div>
+</a>
+ 
+<a class="link" href="https://www.nytimes.com/wirecutter" target="_blank" rel="noopener">
+  <div class="name">Wirecutter <span class="arrow">→</span></div>
+  <div class="desc">"What's the best [anything]?" Saves real money and real time.</div>
+</a>
+ 
+<a class="link" href="https://uncrate.com" target="_blank" rel="noopener">
+  <div class="name">Uncrate <span class="arrow">→</span></div>
+  <div class="desc">Beautiful objects and gadgets. Browses like a magazine.</div>
+</a>
+ 
+<a class="link" href="https://kk.org/cooltools" target="_blank" rel="noopener">
+  <div class="name">Cool Tools <span class="arrow">→</span></div>
+  <div class="desc">Kevin Kelly's recommendations. Often things you didn't know existed.</div>
+</a>
+ 
+<a class="link" href="https://www.core77.com" target="_blank" rel="noopener">
+  <div class="name">Core77 <span class="arrow">→</span></div>
+  <div class="desc">Industrial design news. Right up the designer brain's alley.</div>
+</a>
+ 
+<div class="divider">&mdash; &mdash; &mdash;</div>
+ 
+<h2>Travel &amp; Culture</h2>
+ 
+<a class="link" href="https://www.atlasobscura.com" target="_blank" rel="noopener">
+  <div class="name">Atlas Obscura <span class="arrow">→</span></div>
+  <div class="desc">Weird and wonderful places around the world. Catnip for the curious.</div>
+</a>
+ 
+<a class="link" href="https://artsandculture.google.com" target="_blank" rel="noopener">
+  <div class="name">Google Arts &amp; Culture <span class="arrow">→</span></div>
+  <div class="desc">Virtual museum tours and paintings up close. Free, and gorgeous.</div>
+</a>
+ 
+<a class="link" href="https://www.ricksteves.com" target="_blank" rel="noopener">
+  <div class="name">Rick Steves <span class="arrow">→</span></div>
+  <div class="desc">Warm, approachable travel writing. Best for Europe.</div>
+</a>
+ 
+<a class="link" href="https://www.smithsonianmag.com" target="_blank" rel="noopener">
+  <div class="name">Smithsonian <span class="arrow">→</span></div>
+  <div class="desc">Travel, history, and culture. Well-written and never clickbaity.</div>
+</a>
+ 
+<h2>Cooking &amp; Baking</h2>
+ 
+<a class="link" href="https://cooking.nytimes.com" target="_blank" rel="noopener">
+  <div class="name">NYT Cooking <span class="arrow">→</span></div>
+  <div class="desc">Clean recipes. No 2,000-word life story before the ingredients.</div>
+</a>
+ 
+<a class="link" href="https://www.kingarthurbaking.com" target="_blank" rel="noopener">
+  <div class="name">King Arthur Baking <span class="arrow">→</span></div>
+  <div class="desc">The gold standard for baking. Clear, careful, dependable.</div>
+</a>
+ 
+<a class="link" href="https://smittenkitchen.com" target="_blank" rel="noopener">
+  <div class="name">Smitten Kitchen <span class="arrow">→</span></div>
+  <div class="desc">Warm and chatty. Recipes that actually work.</div>
+</a>
+ 
+<h2>Puzzles &amp; Games</h2>
+ 
+<a class="link" href="https://www.nytimes.com/crosswords" target="_blank" rel="noopener">
+  <div class="name">NYT Games <span class="arrow">→</span></div>
+  <div class="desc">The Mini, Wordle, Connections. A daily one-minute ritual.</div>
+</a>
+ 
+<a class="link" href="https://www.aarp.org/games" target="_blank" rel="noopener">
+  <div class="name">AARP Games <span class="arrow">→</span></div>
+  <div class="desc">Solitaire, mahjong, crosswords. Surprisingly addictive.</div>
+</a>
+ 
+<a class="link" href="https://www.sporcle.com" target="_blank" rel="noopener">
+  <div class="name">Sporcle <span class="arrow">→</span></div>
+  <div class="desc">Trivia quizzes on everything. Great for the travel-curious.</div>
+</a>
+ 
+<footer>
+  Safari &rarr; Share &rarr; Add to Home Screen<br>
+  to keep this one tap away.
+</footer>
+ 
+</body>
+</html>
